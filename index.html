@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Steak on Stake — premium fire-grilled steaks, bold flavors, and an unforgettable dining experience." />
+  <title>Steak on Stake | Premium Steakhouse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+</head>
+<body>
+  <div class="promo-bar">
+    <p>Limited time: <strong>Stake Rewards</strong> members get a complimentary appetizer on your next visit. <a href="#rewards">Join free</a></p>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="Steak on Stake home">
+        <img class="logo-img" src="assets/logo.png" alt="Steak on Stake" width="120" height="44" />
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#locations">Locations</a>
+        <a href="#catering">Catering</a>
+        <a href="#rewards">Rewards</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="#locations">Find a table</a>
+        <a class="btn btn-primary" href="#reserve">Reserve</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#locations">Locations</a>
+      <a href="#catering">Catering</a>
+      <a href="#rewards">Rewards</a>
+      <a class="btn btn-primary" href="#reserve">Reserve</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Fire-grilled since day one</p>
+        <h1>Bold steaks.<br />Big flavor.</h1>
+        <p class="hero-lead">USDA Prime cuts, seared over open flame and finished with house-made rubs. This is steak the way it was meant to taste.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary btn-lg" href="#menu">Explore the menu</a>
+          <a class="btn btn-outline btn-lg" href="#reserve">Book your stake</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1200&q=80" alt="Sizzling ribeye steak on a wooden board" width="1200" height="900" />
+        <div class="hero-badge">
+          <span class="badge-title">Chef's cut</span>
+          <span class="badge-sub">28-day dry aged</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-order" aria-label="Quick actions">
+      <a class="quick-card" href="#menu">
+        <span class="quick-icon" aria-hidden="true">🥩</span>
+        <span class="quick-label">Order pickup</span>
+      </a>
+      <a class="quick-card" href="#reserve">
+        <span class="quick-icon" aria-hidden="true">📅</span>
+        <span class="quick-label">Reserve a table</span>
+      </a>
+      <a class="quick-card" href="#locations">
+        <span class="quick-icon" aria-hidden="true">📍</span>
+        <span class="quick-label">Find locations</span>
+      </a>
+      <a class="quick-card" href="#rewards">
+        <span class="quick-icon" aria-hidden="true">⭐</span>
+        <span class="quick-label">Stake Rewards</span>
+      </a>
+    </section>
+
+    <section class="featured" id="menu">
+      <div class="section-head">
+        <h2>Fan favorites</h2>
+        <a class="link-arrow" href="#menu">View full menu</a>
+      </div>
+      <div class="card-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Glazed baby back ribs on a board with tomatoes, pickles, and BBQ sauce" loading="lazy" />
+          </div>
+          <div class="product-body">
+            <h3>Smoke-Kissed Rib Stake</h3>
+            <p>Full rack of glazed baby backs with house BBQ, pickles, and vine tomatoes — finished with loaded fries.</p>
+            <span class="price">From $48</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80" alt="Medium-rare steak sliced on a dark wooden cutting board" loading="lazy" />
+          </div>
+          <div class="product-body">
+            <h3>Board-Sliced Strip</h3>
+            <p>Thick-cut strip steak, hard-seared crust and rosy center, sliced to order on a charred wood board.</p>
+            <span class="price">From $52</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=800&q=80" alt="Tomahawk steak" loading="lazy" />
+          </div>
+          <div class="product-body">
+            <h3>Tomahawk for Two</h3>
+            <p>32 oz bone-in showstopper, smoked sea salt, sharing sides.</p>
+            <span class="price">$98</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80" alt="Sizzling steak cut ready to serve" loading="lazy" />
+          </div>
+          <div class="product-body">
+            <h3>Surf &amp; Stake</h3>
+            <p>Petite sirloin, butter-poached lobster tail, citrus beurre blanc.</p>
+            <span class="price">From $64</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promo-banner">
+      <div class="promo-inner">
+        <div class="promo-copy">
+          <p class="eyebrow">New this season</p>
+          <h2>Smoke &amp; Ember tasting menu</h2>
+          <p>Five courses from our pitmaster and executive chef — available Thursday through Sunday after 6 PM.</p>
+          <a class="btn btn-primary" href="#reserve">Reserve your experience</a>
+        </div>
+        <div class="promo-image">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Grilled steaks and sides on a table" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="story split-section" id="story">
+      <div class="split-image">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80" alt="Steakhouse dining room ambiance" loading="lazy" />
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Our story</p>
+        <h2>We put our reputation on the line — every plate.</h2>
+        <p>Steak on Stake started with a simple belief: great beef deserves respect, real fire, and no shortcuts. We partner with ranchers who share our standards, then let the grill do the talking.</p>
+        <ul class="check-list">
+          <li>Locally sourced whenever possible</li>
+          <li>Open-kitchen flame grills in every location</li>
+          <li>House-butchered cuts, cut to order</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="rewards" id="rewards">
+      <div class="rewards-inner">
+        <div class="rewards-copy">
+          <p class="eyebrow">Stake Rewards</p>
+          <h2>Earn points on every bite</h2>
+          <p>Join free in under a minute. Unlock birthday steaks, priority reservations, and members-only drops.</p>
+          <form class="rewards-form" action="#" method="get" onsubmit="return false;">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email" autocomplete="email" />
+            <button class="btn btn-primary" type="submit">Join now</button>
+          </form>
+        </div>
+        <div class="rewards-cards">
+          <div class="stat-card"><span class="stat-num">2×</span><span class="stat-label">Points on Tuesdays</span></div>
+          <div class="stat-card"><span class="stat-num">Free</span><span class="stat-label">Appetizer on signup</span></div>
+          <div class="stat-card"><span class="stat-num">VIP</span><span class="stat-label">Priority seating</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations" id="locations">
+      <div class="section-head">
+        <h2>Find your stakehouse</h2>
+        <p class="section-sub">Open daily from 11 AM — late night weekends.</p>
+      </div>
+      <div class="location-grid">
+        <article class="location-card">
+          <h3>Downtown Grill</h3>
+          <p>412 Ember Avenue, Chicago, IL</p>
+          <a href="#">Get directions</a>
+        </article>
+        <article class="location-card">
+          <h3>River North</h3>
+          <p>88 Char Street, Chicago, IL</p>
+          <a href="#">Get directions</a>
+        </article>
+        <article class="location-card">
+          <h3>Lakeview</h3>
+          <p>1200 Flame Boulevard, Chicago, IL</p>
+          <a href="#">Get directions</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="catering split-section reverse" id="catering">
+      <div class="split-image">
+        <img src="https://images.unsplash.com/photo-1551218372-67263d2d5248?auto=format&fit=crop&w=1000&q=80" alt="Catering spread with steaks" loading="lazy" />
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Catering &amp; events</p>
+        <h2>Bring the fire to your gathering</h2>
+        <p>From corporate dinners to celebration feasts, our catering team delivers the full Steak on Stake experience — on site or ready for pickup.</p>
+        <a class="btn btn-outline" href="#reserve">Request a quote</a>
+      </div>
+    </section>
+
+    <section class="reserve-cta" id="reserve">
+      <div class="reserve-inner">
+        <h2>Ready when you are</h2>
+        <p>Pick a time, choose your cut, and we'll have the grill waiting.</p>
+        <a class="btn btn-primary btn-lg" href="#">Reserve a table</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="logo-img" src="assets/logo.png" alt="Steak on Stake" width="120" height="48" />
+        <p>Premium steakhouse dining with heart, heat, and hospitality.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#menu">Steaks</a></li>
+          <li><a href="#menu">Sides</a></li>
+          <li><a href="#menu">Drinks</a></li>
+          <li><a href="#catering">Catering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#story">Our story</a></li>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#rewards">Rewards</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Steak on Stake. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
